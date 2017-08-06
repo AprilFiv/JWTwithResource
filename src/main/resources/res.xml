@@ -1,0 +1,14 @@
+<resource>
+    <name>role-resource</name>
+    <description>权限管理</description>
+    <actions>
+        <action>
+            <name>master</name>
+            <uri>
+               /;
+            </uri>
+            <method>*</method>
+            <description>设备控制</description>
+        </action>
+    </actions>
+</resource>
